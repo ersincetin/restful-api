@@ -38,7 +38,7 @@ public class HotelManager implements ICrudService {
     @Override
     @Transactional
     public Object getById(int index) {
-        return null;
+        return this.hotelDal.getById(index);
     }
 
     @Transactional

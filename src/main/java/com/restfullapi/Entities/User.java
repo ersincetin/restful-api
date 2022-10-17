@@ -19,23 +19,6 @@ public class User {
     private String created_at;
     private String updated_at;
 
-    public User() {
-    }
-
-    public User(int id, String username, int role, String email, String password, String firstname, String lastname, int status, int type, String created_at, String updated_at) {
-        this.id = id;
-        this.username = username;
-        this.role = role;
-        this.email = email;
-        this.password = password;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.status = status;
-        this.type = type;
-        this.created_at = created_at;
-        this.updated_at = updated_at;
-    }
-
     public int getId() {
         return id;
     }

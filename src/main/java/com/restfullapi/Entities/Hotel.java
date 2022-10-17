@@ -17,15 +17,6 @@ public class Hotel {
     public Hotel() {
     }
 
-    public Hotel(int id, String name, int status, String explanation, String created_at, String updated_at) {
-        this.id = id;
-        this.name = name;
-        this.status = status;
-        this.explanation = explanation;
-        this.created_at = created_at;
-        this.updated_at = updated_at;
-    }
-
     public int getId() {
         return id;
     }
